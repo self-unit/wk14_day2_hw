@@ -26,7 +26,7 @@ class TopChartContainer extends Component {
 
     render(){
         return(
-            <div>
+            <div className="chart-container">
             <h2>iTunes Top 20 UK Chart</h2>
             {/* <Selector charts={this.state.charts} onGenreSelected={this.handleGenreSelected}/> */}
             <TopChartList charts={this.state.charts} />
